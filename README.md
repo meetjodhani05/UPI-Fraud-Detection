@@ -1,16 +1,16 @@
-# UPI Fraud Detection
+# 🚨 UPI Fraud Detection
 
-## Overview
+## 📌 Overview
 This project detects fraudulent UPI transactions using Machine Learning. It preprocesses transaction data, trains a model, and predicts whether a transaction is fraudulent or safe.
 
-## Features
+## ✨ Features
 - Data preprocessing
 - Fraud detection using Random Forest
 - Transaction prediction
 - Flask web application
 - Organized project structure
 
-## Technologies Used
+## 🛠 Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -18,7 +18,7 @@ This project detects fraudulent UPI transactions using Machine Learning. It prep
 - Flask
 - Joblib
 
-## Project Structure
+## 📂 Project Structure
 
 UPI-Fraud-Detection/
 ├── data/
@@ -30,7 +30,7 @@ UPI-Fraud-Detection/
 ├── .gitignore
 └── README.md
 
-## How to Run
+## ⚙️ How to Run
 
 1. Install dependencies:
    
@@ -62,12 +62,12 @@ UPI-Fraud-Detection/
    http://127.0.0.1:5000/
    ```
    
-## Future Improvements
+## 🔮 Future Improvements
 - Real-time fraud detection
 - Better machine learning models
 - Interactive dashboard
 
-## Author
+## 👨‍💻 Author
 Meet Jodhani 
 
 Diploma In Computer Engineering
