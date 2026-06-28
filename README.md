@@ -33,21 +33,41 @@ UPI-Fraud-Detection/
 ## How to Run
 
 1. Install dependencies:
+   
+   ```bash
    pip install -r requirements.txt
-
+   ```
+   
 2. Run preprocessing:
-   python src/preprocess.py
 
+   ```bash
+   python src/preprocess.py
+   ```
+   
 3. Train the model:
+
+   ```bash
    python src/train_model.py
+   ```
 
 4. Start the application:
-   python app.py
 
+   ```bash
+   python app.py
+   ```
+   
+5. Open browser:
+
+   ```bash
+   http://127.0.0.1:5000/
+   ```
+   
 ## Future Improvements
 - Real-time fraud detection
 - Better machine learning models
 - Interactive dashboard
 
 ## Author
-Meet Jodhani
+Meet Jodhani 
+
+Diploma In Computer Engineering
