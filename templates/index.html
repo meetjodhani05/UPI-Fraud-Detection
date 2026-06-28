@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>UPI Fraud Detection System</h1>
+
+    <form method="POST">
+        <label>Transaction Amount</label>
+        <input type="number" name="amount" required>
+
+        <label>Transaction Hour (0-23)</label>
+        <input type="number" name="time" required>
+
+        <label>Device Type (0=Mobile, 1=Laptop)</label>
+        <input type="number" name="device_type" required>
+
+        <label>Location Code</label>
+        <input type="number" name="location" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h2>{{ result }}</h2>
+    {% endif %}
+</div>
+
+</body>
+</html>
