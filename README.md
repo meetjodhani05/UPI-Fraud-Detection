@@ -73,7 +73,23 @@ UPI-Fraud-Detection/
    ```
 
    ---
-   
+
+## 🖼️ Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Prediction Page
+![Prediction](screenshots/prediction.png)
+
+### Result(SAFE)Page
+![Result](screenshots/result(safe).png)
+
+### Result(FRAUD)Page
+![Result](screenshots/result(fraud).png)
+
+---
+
 ## 🔮 Future Improvements
 - Real-time fraud detection
 - Better machine learning models
