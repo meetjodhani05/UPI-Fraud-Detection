@@ -1,14 +1,20 @@
-from flask import Flask
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def home():
-    return """
-    <h1>UPI Fraud Detection</h1>
-    <p>Welcome to the UPI Fraud Detection Project.</p>
-    <p>Project created using Python and Flask.</p>
-    """
+    result = ""
+
+    if request.method == "POST":
+        amount = float(request.form["amount"])
+
+        if amount > 5000:
+            result = "⚠️ Fraud Transaction Detected"
+        else:
+            result = "✅ Safe Transaction"
+
+    return render_template("index.html", result=result)
 
 if __name__ == "__main__":
     app.run(debug=True)
