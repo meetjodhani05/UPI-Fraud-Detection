@@ -82,10 +82,10 @@ UPI-Fraud-Detection/
 ### Prediction Page
 ![Prediction](screenshots/prediction.png)
 
-### Result(SAFE)Page
+### Result (SAFE) Page
 ![Result](screenshots/result(safe).png)
 
-### Result(FRAUD)Page
+### Result (FRAUD) Page
 ![Result](screenshots/result(fraud).png)
 
 ---
